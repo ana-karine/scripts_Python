@@ -2,8 +2,8 @@ import time
 import psutil
 
 # Definindo os limites para o uso de CPU e memória por processo
-limite_cpu = 5 # Em percentagem
-limite_memoria = 4  # Em percentagem
+limite_cpu = 5 # Em percentagem (5% para fins didáticos)
+limite_memoria = 4  # Em percentagem (5% para fins didáticos)
 
 def monitorar_processos():
     while True:
